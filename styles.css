@@ -1,0 +1,118 @@
+*{
+    background: #D8EFD3;
+    font-family: 'inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    overflow-y: hidden;
+}
+
+:root{
+    --color-primario:#433D8B;  
+    --color-segundario:#E9FF97;
+    --color-terciario:#88D66C;
+    --color-hover:#73BBA3;
+}
+
+.logo {
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 180px;
+   gap: 20px;
+}
+.text-area {
+    height: 400;
+    border: none;
+    color: var(--color-primario);
+    margin-top: 90PX;
+    text-transform: lowercase;
+
+}
+::placeholder {color: var(--color-primario);}
+ .text-area:focus{
+    outline: none;}
+
+.mensaje{
+    background: var(--color-segundario);
+    background-image: url(/imagen/Muñeco.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 24px;
+    color: var(--color-primario);
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}
+
+.mensaje{
+    outline: none;
+}
+
+.botones{
+    display: flex;
+   
+}
+
+.btn-desencriptar {
+    background: var(--color-terciario);
+    border: 1px solid var(--color-primario);
+    border-radius: 24px;
+    color: var(--color-primario);
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-encriptar {
+    background-color: var(--color-primario);
+    border: 1px solid var(--color-primario);
+    border-radius: 24px;
+    color: var(--color-segundario);
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px; 
+}
+
+.btn-copiar{
+    border: 1px solid var(--color-primario);
+    border-radius: 24px;
+    color: var(--color-primario);
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 900px;
+    position: relative;
+    width: 336px;
+}
+.informacion{
+    color: var(--color-hover);
+    font-size: 15px;
+    margin-left: 50px;
+    margin-top: 400px;
+    
+}
+
+textarea.mensaje {
+    height: 944px; 
+    resize: none; 
+}
+
+
+@media (max-width: 1000px) {
+    main {
+        flex-direction: column;
+        margin-left: 10px;
+        margin-right: 10px;
+        align-items: center;
+    }
+}
