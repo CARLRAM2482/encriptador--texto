@@ -108,7 +108,7 @@ textarea.mensaje {
 }
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1600px) {
     main {
         flex-direction: column;
     }
