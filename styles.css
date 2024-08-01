@@ -108,11 +108,8 @@ textarea.mensaje {
 }
 
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
     main {
         flex-direction: column;
-        margin-left: 10px;
-        margin-right: 10px;
-        align-items: center;
     }
 }
